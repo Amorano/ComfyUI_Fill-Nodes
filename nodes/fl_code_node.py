@@ -14,7 +14,7 @@ class FL_CodeNode:
                 "use_file": ("BOOLEAN", {"default": False})
         }}
 
-    CATEGORY = "🏵️Fill Nodes"
+    CATEGORY = "🏵️Fill Nodes/utility"
     RETURN_TYPES = tuple(AlwaysEqualProxy("*") for _ in range(4))
     RETURN_NAMES = tuple(f"output_{i}" for i in range(4))
     DESCRIPTION = """

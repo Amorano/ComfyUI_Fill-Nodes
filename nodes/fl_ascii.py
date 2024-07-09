@@ -71,7 +71,7 @@ representations of images with ASCII characters.
 
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "apply_ascii_art_effect"
-    CATEGORY = "🏵️Fill Nodes"
+    CATEGORY = "🏵️Fill Nodes/VFX"
 
     def apply_ascii_art_effect(self, image: torch.Tensor, spacing: int, font_size: int, characters, font: str, sequence_toggle: str, stroke_width: int):
         batch_size = image.shape[0]
